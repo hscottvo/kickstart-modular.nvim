@@ -16,6 +16,10 @@ return {
       { 'folke/neodev.nvim', opts = {} },
     },
     config = function()
+      require('lspconfig').clangd.setup {
+        cmd = { 'clangd' },
+      }
+
       -- Brief aside: **What is LSP?**
       --
       -- LSP is an initialism you've probably heard, but might not understand what it is.
