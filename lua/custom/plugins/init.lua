@@ -8,5 +8,6 @@ return {
   require 'custom/plugins/quickscope',
   require 'custom/plugins/lazygit',
   require 'custom/plugins/neo-tree',
-  require 'custom/plugins/catppuccin',
+  -- require 'custom/plugins/catppuccin',
+  require 'custom/plugins/everforest',
 }
